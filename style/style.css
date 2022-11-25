@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: sylfaen;
+    src: url(../fonts/sylfaen.ttf);
+}
+body{
+    background-image: url(../img/Rectangle\ 1.png);
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    width: 100%;
+    /* height: 200px; */
+    /* background-color: black; */
+    padding-top: 50px;
+    padding-left: 480px;
+    /* border-bottom: 2px solid black; */
+    
+    
+}
+
+header .fa-bars-icons{
+    display: none;
+}
+header ul{
+    width: 700px;
+    /* background-color: aqua; */
+}
+header ul .mart1{
+    width: 230px;
+    height: 70px;
+    margin-left: 84px;
+    padding: 20px 18px;
+    background-color: #C4C4C4;
+    border-radius: 0 35px;
+   
+}
+header ul .mart2{
+width: 126px;
+}
+header ul .mart3{
+    width: 70px;
+}
+header ul a{
+    padding: 5px 5px;
+    font-size: 18px;
+    color: #000000;
+    font-family: sylfaen;
+    
+}
+.flex :hover.mart1{
+    background-color: #79B331;
+    
+}
+.mart1 :hover a{
+    color: #ffffff;
+}
+.mart{
+    width: 440px;
+    height: 190px;
+    margin: 110px 750px;
+    /* background-color: aqua; */
+    /* padding-left: 46px; */
+   
+}
+.wre{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #79B331;
+    position: relative;
+    animation: triali 3s infinite;
+}
+.martpatara{
+    width: 350px;
+    height: 120px;
+    margin-left: 44px;
+    /* background-color: #f51d89; */
+    text-align: center;
+    padding-top: 30px;
+}
+.martpatara .aqcia{
+    color:   black;
+    font-size: 18px;
+}
+.martpatara .timer{
+    font-size: 36px;
+    margin-top: 16px;
+}
+@keyframes triali {
+    0%{left: 0;top: 0;}
+    25%{left: 408px; top: 0;}
+    50%{left: 408px;top: 158px}
+    75%{left: 0;top: 158px;}
+    100%{left: 0; top: 0;}
+}
+.sakvebi{
+    width: 562px;
+    height: 70px;
+    /* background-color: #136fe7; */
+    padding-left: 110px;
+    margin-bottom: 148px;
+}
+
+.sakvebi:hover .limoni, .lime{
+    background-color: #79B331;
+}
+.sakvebi:hover .text{
+    color: #79B331;
+}
+.sakvebi:hover .text1{
+    color: #79B331;
+}
+.sakvebi:hover .text2{
+    color: #79B331;
+}
+
+.limoni{
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 0 35px;
+}
+.lime{
+    transform: rotate(90deg);
+    padding-left: 0;
+}
+.shebrunebuli{
+    padding-left: 0; 
+}
+.text{
+    margin-right: 40px;
+    font-family: sylfaen;
+}
+.text1{
+    margin-right: 100px;
+    font-family: sylfaen;
+}
+
+.gaertianebuli{
+    height: 500px;
+    width: 562px;
+    /* background-color: rgb(253, 10, 132); */
+}
+.gaertianebuli1{
+    height: 500px;
+    width: 562px;
+    padding-top: 112px;
+    /* background-color: rgb(10, 253, 30); */
+}
+.xazi{
+    width: 1px;
+    height: 432px;
+    margin-top: 68px;
+    background-color: #C4C4C4;
+}
+.mtavari{
+    height: 500px;
+    display: flex;
+    margin-left: 220px;
+}
+@media only screen and (max-width: 1024px){ 
+header{
+    padding-left: 140px;
+}
+body .mart{
+    margin-left: 540px;
+}
+.mtavari{
+    width: 570px;
+    /* background-color: aqua; */
+    display: block;
+    position: relative;
+
+}
+.gaertianebuli{
+    width: 100%;
+    /* background-color: rgb(119, 0, 255); */
+}
+.sakvebi{
+    width: 100%;
+    margin-bottom: 38px;
+    /* background-color: #9bb331; */
+}
+.text2{
+    /* background-color: rgb(214, 22, 112); */
+    font-family: sylfaen;
+    
+}
+.nervi1{
+    position: absolute;
+    top: 216px;
+    flex-direction: row-reverse;   
+}
+
+.nervi2{
+    position: absolute;
+    top: 324px;
+    flex-direction: row-reverse;
+}
+.lime{
+    transform: rotate(-90deg);
+}
+
+.xazi{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 400px;
+}
+body{
+ background-repeat: no-repeat;
+ background-position: left 50px top -20px;
+}
+
+}
+
+@media only screen and (max-width: 390px){
+    /* body{
+        width: 100%;
+    } */
+    header{
+        height: 100px;
+        overflow: hidden;
+    }
+    header nav{
+        margin-top: 50px;
+    }
+    header .fa-bars-icons{
+        display: block;
+    }
+    .mart{
+        width: 300x;
+        height: 190px;
+        margin: 110px auto;
+    }
+  
+
+}
